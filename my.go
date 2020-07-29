@@ -22,14 +22,15 @@ func (iPhone ApplePhone) call() {
 	fmt.Println("I am iPhone, I can call you!")
 }
 
-func main() {
-	var nphone Phone
-	var iphone Phone
-	fmt.Printf("hello, Call me now\n")
+// func main() {
+// 	var nphone Phone
+// 	var iphone Phone
 
-	nphone = new(NokiaPhone)
-	nphone.call()
+// 	fmt.Printf("hello, Call me now\n")
 
-	iphone = new(ApplePhone)
-	iphone.call()
-}
+// 	nphone = new(NokiaPhone)
+// 	nphone.call()
+
+// 	iphone = new(ApplePhone)
+// 	iphone.call()
+// }
